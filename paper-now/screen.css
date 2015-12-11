@@ -1,12 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic");
-
 body {
   font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Myriad Pro', 'Source Sans Pro', sans-serif;
 }
 
 header {
-  margin: 4rem 0;
+  margin: 4rem 2rem;
+}
+
+section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+section:last-of-type {
+  margin-bottom: 8rem;
 }
 
 h1 {
@@ -34,7 +41,9 @@ footer h3 {
 
 section > p, section > ol, section > ul {
   font-size: 110%;
+  font-family: "Helvetica Neue", "Helvetica", "Source Sans Pro", sans-serif;
   color: #333;
+  font-weight: 200;
 }
 
 .column-sidebar {
@@ -129,8 +138,8 @@ figure th {
 }
 
 .author a:hover {
-  color: blue;
-  text-decoration: none;
+  color: #05347B;
+  text-decoration: underline;
 }
 
 .author [itemprop=email] {
